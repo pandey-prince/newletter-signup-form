@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for subscribing!</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <div class="outer-box">
+        <div class="checkbox">
+            <img src="/images/icon-success.svg" alt="successIcon">
+        </div>
+
+        <div class="others">
+            <div class="heading">
+                Thanks for subscribing!
+            </div>
+            <div class="message">
+                A confirmation email has been sent
+                to <span class="email">ash@lorelmcompany.com</span>. Please open it 
+                and click the button inside to confirm your subscription.
+            </div>
+            <div class="button">
+                <button>Dismiss message</button>
+            </div>
+        </div>
+    </div>
+   <script>
+        let button  = document.querySelector('button');
+        button.addEventListener('click',function(){
+            window.location.href="/index.html";
+        })
+    </script>
+
+</body>
+</html>
