@@ -318,7 +318,7 @@ In future responsiveness will be added.
 
 ## Author
 
-- Website - [Prince Pandey](princepandey.xyz)
+- Website - [Prince Pandey](@pandey-prince)
 
 
 
